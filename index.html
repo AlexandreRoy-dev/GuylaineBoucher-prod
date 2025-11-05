@@ -10,8 +10,8 @@
   <link rel="alternate" hreflang="fr-CA" href="/">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.svg" rel="icon">
+  <link href="assets/img/favicon.svg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -53,6 +53,15 @@
   color: #fff !important;
   border-color: #d0103a;
 }
+.logo img {
+  height: 100px !important;
+  width: auto;
+}
+@media (max-width: 768px) {
+  .logo img {
+    height: 40px !important;
+  }
+}
 
   </style>
 
@@ -83,9 +92,13 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto" aria-label="Retour à l’accueil">
-        <h1 class="sitename">Guylaine Boucher</h1>
-      </a>
+<a href="index.html" class="logo d-flex align-items-center me-auto" aria-label="Retour à l’accueil">
+  <img src="assets/img/logo_proprio.svg" 
+       alt="Logo Guylaine Boucher Courtier immobilier Proprio Direct" 
+       class="img-fluid" 
+       style="height: 55px; width: auto;">
+</a>
+
 
       <nav id="navmenu" class="navmenu" aria-label="Navigation principale">
         <ul>

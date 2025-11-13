@@ -62,6 +62,17 @@
     height: 40px !important;
   }
 }
+#hero::before {
+  background: none !important;
+}
+.hero-box {
+  max-width: 600px;              /* size of the box */
+  background: rgba(0, 0, 0, 0.8); /* 50% opacity black */
+  padding: 30px 40px;            /* space inside */
+  border-radius: 16px;           /* rounded corners */
+  backdrop-filter: blur(4px);    /* optional → glassy look */
+  color: #fff;                   /* ensure good contrast */
+}
 
   </style>
 
@@ -118,21 +129,28 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/bg/bg-3.webp" alt="Maisons dans les Laurentides et en Outaouais — courtage immobilier" data-aos="fade-in" width="1920" height="1080">
+   <section id="hero" class="hero section">
+  <img src="assets/img/bg-gb.png" alt="" data-aos="fade-in" width="1920" height="1080">
 
-      <div class="container">
-        <span class="d-inline-block mb-3" data-aos="fade-up" data-aos-delay="80">Proprio Direct • Laurentides & Outaouais</span>
-        <h1 class="display-5" data-aos="fade-up" data-aos-delay="120">Guylaine Boucher - Courtier immobilier</h1>
-        <p class="lead" data-aos="fade-up" data-aos-delay="200">
-          Achat • Vente • Évaluation • Mise en marché complète<br>
-          Laurentides & Outaouais
-        <div class="d-flex mt-4 gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="280">
-          <a href="#contact" class="btn-get-started btn btn-lg">Commencer mon projet</a>
-          <a href="#services" class="btn btn-outline btn-lg"><i class="bi bi-list-check me-2"></i>Voir les services</a>
-        </div>
+  <div class="container">
+    <div class="hero-box" data-aos="fade-up" data-aos-delay="100">
+      <span class="d-inline-block mb-3">Proprio Direct • Laurentides & Outaouais</span>
+
+      <h1 class="display-5 text-white">Guylaine Boucher - Courtier immobilier</h1>
+
+      <p class="lead text-white">
+        Achat • Vente • Évaluation • Mise en marché <br> <br>
+        Laurentides & Outaouais
+      </p>
+
+      <div class="d-flex mt-4 gap-3 flex-wrap">
+        <a href="#contact" class="btn-primary btn btn-lg">Commencer mon projet</a>
+        <a href="#services" class="btn btn-outline btn-lg">Voir les services</a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
     <!-- /Hero Section -->
 
     <!-- About Section -->
@@ -174,7 +192,7 @@
               <div class="row gy-4">
                 <div class="col-lg-5">
                   <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/person/person-f-1.webp" alt="Guylaine Boucher — Courtier immobilier" class="profile-image" width="72" height="72" loading="lazy">
+                    <img src="assets/img/Photo Guylaine.png" alt="Guylaine Boucher — Courtier immobilier" class="profile-image" width="72" height="72" loading="lazy">
                     <div>
                       <h4 class="profile-name">Guylaine Boucher</h4>
                       <p class="profile-position">Courtier immobilier résidentiel</p>
@@ -198,8 +216,8 @@
           <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
             <div class="image-wrapper">
               <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                <img src="assets/img/about/about-5.webp" alt="Vente de maison — rencontre clients" class="img-fluid main-image rounded-4" width="900" height="600" loading="lazy">
-                <img src="assets/img/about/about-square-1.webp" alt="Visite immobilière" class="img-fluid small-image rounded-4" width="420" height="420" loading="lazy">
+                <img src="assets/img/gb-apropos.jpg" alt="Vente de maison — rencontre clients" class="img-fluid main-image rounded-4" width="900" height="600" loading="lazy">
+                <img src="assets/img/vendu.png" alt="Visite immobilière" class="img-fluid small-image rounded-4" width="420" height="420" loading="lazy">
               </div>
               <div class="experience-badge floating">
                 <h3>Régions</h3>
